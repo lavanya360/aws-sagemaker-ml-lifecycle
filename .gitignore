@@ -1,0 +1,36 @@
+```gitignore
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# AWS credentials
+.aws/
+credentials
+config
+
+# Temporary files
+*.log
+*.tmp
+
+# Model artifacts and archives
+model.joblib
+model.tar.gz
+*.tar.gz
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+```
